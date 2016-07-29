@@ -1,0 +1,31 @@
+<returnsms>
+<returnstatus>status</returnstatus> ---------- 返回状态值：成功返回Success 失败返回：Faild
+<message>message</message> ---------- 返回信息：见下表 
+<remainpoint> remainpoint</remainpoint> ---------- 返回余额
+<taskID>taskID</taskID>? -----------? 返回本次任务的序列ID
+<successCounts>successCounts</successCounts> --成功短信数：当成功后返回提交成功短信数
+<payinfo>payinfo</payinfo>--------------返回支付方式? 后付费，预付费
+<overage>overage</overage>-------------返回已发送条数
+<sendTotal>sendTotal</sendTotal>----返回总点数? 当支付方式为预付费是返回总充值点数
+
+
+<statusbox>
+<mobile>15023239810</mobile>-------------对应的手机号码
+<taskid>1212</taskid>-------------同一批任务ID
+<status>10</status>---------状态报告----10：发送成功，20：发送失败
+<receivetime>2011-12-02 22:12:11</receivetime>-------------接收时间
+</statusbox>
+
+<errorstatus>
+<error>1</error>-------------错误码
+<remark>用户名或密码不能为空</remark>-------------错误描述
+</errorstatus>
+
+<callbox>
+<content>你好，我不需要</content>---------上行内容 
+<receivetime>2011-12-02 22:12:11</receivetime>-------------接收时间 
+</callbox>
+
+
+
+</returnsms>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ExampleHttp_kuaixin"
+  id="myeclipse.1369116283062"
+  context-root="/ExampleHttp_kuaixin"
+  j2ee-spec="5.0"
+  archive="ExampleHttp_kuaixin.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
